@@ -1,0 +1,28 @@
+{
+  "name": "React-ES6-Webpack",
+  "version": "1.0.0",
+  "description": "demo",
+  "main": "./app/main.js",
+  "scripts": {
+    "dev": "BUILD_DEV=1 webpack-dev-server --inline --devtool eval --progress --colors --hot --host react.local --port 9090",
+    "deploy": "BUILD_DEV=0 webpack -p"
+  },
+  "author": "Artem S",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^5.6.14",
+    "babel-loader": "^5.2.2",
+    "css-loader": "^0.15.6",
+    "extract-text-webpack-plugin": "^0.8.2",
+    "file-loader": "^0.8.4",
+    "json-loader": "^0.5.2",
+    "node-libs-browser": "^0.5.2",
+    "react": "^0.13.3",
+    "react-hot-loader": "^1.2.7",
+    "style-loader": "^0.12.3",
+    "stylus-loader": "^1.2.1",
+    "uglify-loader": "^1.2.0",
+    "webpack": "^1.9.12",
+    "webpack-dev-server": "^1.10.1"
+  }
+}
